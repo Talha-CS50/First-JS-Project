@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Tailwind CSS -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- F awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- G Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +17,8 @@
 </head>
 <body class="manrope-font">
 
-    <header class="container max-w-[80%] mx-auto">
-        <h1 class="text-5xl font-bold text-green-500 mb-4">Plant Tracker</h1>
+    <header class="container max-w-[80%] mx-auto mb-7">
+        <h1 class="text-5xl font-bold text-green-500 mb-4"> Plant <i class="fa-brands fa-pagelines"></i> Tracker</h1>
         <div class="head-items grid grid-cols-3 gap-5">
             <div class="one bg-amber-200 p-4 rounded-md">
                 <p class="font-semibold text-3xl pb-1.5 text-amber-600">0</p>
@@ -32,6 +34,110 @@
             </div>
         </div>
     </header>
-    
+
+    <hr class="my-5">
+
+    <main class="container max-w-[80%] mx-auto">
+        <div class="toggle-btn">
+            <button class="bg-black text-white px-4 py-1 rounded-md">All</button>
+            <button class="bg-gray-300  px-4 py-1 rounded-md">Thriving</button>
+            <button class="bg-gray-300  px-4 py-1 rounded-md">Struggling</button>
+        </div>
+
+        <!-- Items section -->
+         
+        <section class="mb-4">
+            <!-- Item 1 -->
+            <div class="plant-items border p-4 mt-5">
+
+             <!-- Item 1 -->
+            <div class="item flex justify-between">
+                <div>
+                 <h1 class="font-bold text-4xl">Plant Name 1</h1>
+                <p>Latin Name</p>
+            
+                <div class="flex gap-1.5 mt-4 mb-4">
+                    <p class="bg-gray-200 p-1 rounded-md">Bright Indicate</p>
+                    <p class="bg-gray-200 p-1 rounded-md">Weekly</p>
+                </div>
+                
+                <p class="mb-3">Not Applicable</p>
+
+                <button class="bg-green-300 px-5 py-1 rounded-md cursor-pointer">Thrive</button>
+                <button class="bg-red-300 px-5 py-1 rounded-md cursor-pointer">Struggle</button>
+        
+            </div>
+
+             <div class="delete-btn">
+                <button class="bg-red-200 text-red-500 font-semibold rounded-md px-5 py-2 cursor-pointer">Delete</button>
+             </div>
+            </div>
+          
+        </div>
+
+        <!-- Item 2 -->
+         <div class="plant-items border p-4 mt-5">
+
+             <!-- Item 1 -->
+            <div class="item flex justify-between">
+                <div>
+                 <h1 class="font-bold text-4xl">Plant Name 1</h1>
+                <p>Latin Name</p>
+            
+                <div class="flex gap-1.5 mt-4 mb-4">
+                    <p class="bg-gray-200 p-1 rounded-md">Bright Indicate</p>
+                    <p class="bg-gray-200 p-1 rounded-md">Weekly</p>
+                </div>
+                
+                <p class="mb-3">Not Applicable</p>
+
+                <button class="bg-green-300 px-5 py-1 rounded-md cursor-pointer">Thrive</button>
+                <button class="bg-red-300 px-5 py-1 rounded-md cursor-pointer">Struggle</button>
+        
+            </div>
+
+             <div class="delete-btn">
+                <button class="bg-red-200 text-red-500 font-semibold rounded-md px-5 py-2 cursor-pointer">Delete</button>
+             </div>
+            </div>
+          
+        </div>
+
+        <!-- Item 3 -->
+
+        <div class="plant-items border p-4 mt-5">
+
+             <!-- Item 1 -->
+            <div class="item flex justify-between">
+                <div>
+                 <h1 class="font-bold text-4xl">Plant Name 1</h1>
+                <p>Latin Name</p>
+            
+                <div class="flex gap-1.5 mt-4 mb-4">
+                    <p class="bg-gray-200 p-1 rounded-md">Bright Indicate</p>
+                    <p class="bg-gray-200 p-1 rounded-md">Weekly</p>
+                </div>
+                
+                <p class="mb-3">Not Applicable</p>
+
+                <button class="bg-green-300 px-5 py-1 rounded-md cursor-pointer">Thrive</button>
+                <button class="bg-red-300 px-5 py-1 rounded-md cursor-pointer">Struggle</button>
+        
+            </div>
+
+             <div class="delete-btn">
+                <button class="bg-red-200 text-red-500 font-semibold rounded-md px-5 py-2 cursor-pointer">Delete</button>
+             </div>
+            </div>
+          
+        </div>
+
+
+        </section>
+
+
+    </main>
+
+
 </body>
 </html>
